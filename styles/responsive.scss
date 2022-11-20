@@ -1,6 +1,13 @@
-@media(max-width: 1300px){
+@media(max-width: 1366px){
     section{
         padding: 0 50px ;
+    }
+    .hero-desktop{
+        display: none;
+    }
+
+    .hero-img-tablet{
+        display: block;
     }
     
     .cards{
@@ -23,14 +30,14 @@
     }
 }
 
-@media(max-width: 1200px){
-    .hero-desktop{
-        display: none;
-    }
-    .hero-img-tablet{
-        display: block;
-    }
-}
+// @media(max-width: 1200px){
+//     .hero-desktop{
+//         display: none;
+//     }
+//     .hero-img-tablet{
+//         display: block;
+//     }
+// }
 @media(max-width: 912px){
 
     section{
